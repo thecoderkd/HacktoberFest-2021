@@ -90,8 +90,6 @@ For your PR to count it must be:
     
 ***
 
-![image](https://user-images.githubusercontent.com/64991656/133085022-e507d7da-e824-4226-be49-0f549cd78e17.png)
-
 ---
 ### FEATURES
 1. Beginner-friendly
