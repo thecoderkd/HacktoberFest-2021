@@ -1,115 +1,157 @@
-![image](https://user-images.githubusercontent.com/64991656/135403993-8436cfd2-5314-4c03-8509-d33e51c565b2.png)
+# The Algorithms - Dart
 
-<h1 align="center"> Hacktoberfest 2021 </h1>
+[![Build Status](https://travis-ci.com/TheAlgorithms/Dart.svg?branch=master)](https://travis-ci.com/TheAlgorithms/Dart)
 
-<h3 align="center">
-    <a href="https://hacktoberfest.digitalocean.com/">
-        Link To HacktoberFest 2021
-    </a>
-</h3>
+### All algorithms implemented in Dart (for education)
 
-## Event details :
+These implementations are for learning purposes. They may be less efficient than the implementations in the Dart standard library.
 
-- Hacktoberfest is a **month-long** challenge. It happens every year in the month of October.
-- Hacktoberfest is open to everyone and it marks the celebration of Open Source. It's the biggest Open Source event that encourages newbies to participate in Open Source and create their 1st meaningful PR.
-- Hacktoberfest will be hosted by Digital Ocean for the 8th year in a row in partnership with GitHub and other companies.
-- Hacktoberfest® is **open to everyone** in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. 
-- All backgrounds and skill levels are encouraged to complete the challenge.
-- Hacktoberfest is a celebration open to everyone in our global community.
-- You can sign up **anytime between October 1 and October 31**.
+## List of Algorithms
 
----
+See our [directory](https://github.com/AlAbtAlgo/Dart/blob/master/DIRECTORY.md) for full list of all algorithms. A few of the algorithms (the most common ones) are explained here.
 
-## How can you Join?
-### Step - 1:
-Create a GitHub account, if you don't already have one. Need help? Here are some resources to help you set up your GitHub account:
+## Search Algorithms
 
-- https://ayushirawat.com/what-is-git-and-github-or-git-vs-github
-- https://www.youtube.com/playlist?list=PLjaO05BrsbIPUT76gpBmUxV7YSPWFephT
-- https://www.youtube.com/playlist?list=PLseEp7p6EwiZgLPknY4ITJxfoo75wqxph
+### Linear
+![alt text][linear-image]
 
-### Step - 2:
-Register for Hacktoberfest: Navigate to the [Hacktoberfest registration page](https://hacktoberfest.digitalocean.com/register) and follow the instructions. But, read the rules carefully before you do and then sign In using your GitHub credentials.
+From [Wikipedia][linear-wiki]: linear search or sequential search is a method for finding a target value within a list. It sequentially checks each element of the list for the target value until a match is found or until all the elements have been searched.
+  Linear search runs in at the worst linear time and makes at most n comparisons, where n is the length of the list.
 
-### Step - 3:
-Find good projects worth contributing on the GitHub page. You can type `label:hactoberfest is:issue is:open`
-
-You can add a language label of your choice to filter open issues. If you are a beginner and can’t find good issues then there’s tag `label:good first issue` which filters out issues for beginners who want to contribute.
-
-Here's something beginner-friendly for you:
-- https://www.firsttimersonly.com/
-- https://github.com/mungell/awesome-for-beginners
-
-### Step - 4:
-Submit PRs: Try and submit at least ***4 PRs*** and wait for it to be verified. Make sure to submit quality PRs.
-
----
-
-## HacktoberFest Rules :
-
-- To earn your Hacktoberfest tee or tree reward, you must **register** and make **four valid pull requests** (PRs) between October 1-31 (in any time zone). 
-- Pull requests can be made in any participating GitHub or GitLab hosted repository/project. Look for the `hacktoberfest` topic to know if a repository/project is participating in Hacktoberfest. 
-- Pull requests must be approved by a maintainer of the repository/project to count. 
-- If a maintainer reports your pull request as spam or behavior not in line with the project’s code of conduct, you will be ineligible to participate. 
-- This year, the first **55,000** participants who successfully complete the challenge will be eligible to receive a prize.
+__Properties__
+* Worst case performance    O(n)
+* Best case performance    O(1)
+* Average case performance    O(n)
+* Worst case space complexity    O(1) iterative
 
 
-For your PR to count it must be:
+### Binary
+![alt text][binary-image]
 
-- Submitted in a public repo, AND the PR is labelled as `hacktoberfest-accepted` by a maintainer. or
-- Submitted in a repo labelled `hacktoberfest` , AND Merged, OR Approved
-- You can opt not to receive a t-shirt and stickers and you can choose to have a tree planted in your name and help make Hacktoberfest 2021 more carbon neutral.
+From [Wikipedia][binary-wiki]: Binary search, also known as half-interval search or logarithmic search, is a search algorithm that finds the position of a target value within a sorted array. It compares the target value to the middle element of the array; if they are unequal, the half in which the target cannot lie is eliminated and the search continues on the remaining half until it is successful.
 
-***
-<h3 align="center"> Whether it’s your first or fiftieth pull request, there’s always more to learn! We’ve put together a few resources that can help you create quality pull requests, keep your repositories pristine, and build on your open source knowledge. </h3>
+__Properties__
+* Worst case performance    O(log n)
+* Best case performance    O(1)
+* Average case performance    O(log n)
+* Worst case space complexity    O(1)
 
-***
-## Rules To Contribute To This Repo
+----------------------------------------------------------------------------------------------------------------------
 
--   You can write solutions only in C++ for Data Structure and Algorithms (if you dont know C++ you can submit only algorithm) 
--   Follow file naming convention for all your pull requests.
--   While adding any content it should be inside its appropiate directory
--   if there is any problem with inaccurate solution create an issue!
-    
-## Things you can contribute to 
--   Repo contain folders of all the data structures and algorithms topics with some pre-addressed questions. You can **add a solution** to a question ( present in the readme of particular topic folder) that is unanswered.
--   you can **update existing solution** with a better one ( better complexity).
--   Participants can even **add new questions** and solutions of their interest.
--   There will be a technical writing section in which participants can contribute their **technical writing** on any topic of c++ and data structures.
--   **solve issues** raised by other people or yourself.
--   make webpage ( hosted from GitHub readme ) more appealing and updated.
--   **Well-documented** source code with detailed explanations provides a valuable resource for educators and students alike.
-
-## Steps For Contribution
-
-    1. Fork this repo
-    2. Star this repo
-    3. Add a file ( txt/cpp ) inside appropriate folder 
-    4. commit the code
-    5. Make pull request
-    
-***
-
----
-### FEATURES
-1. Beginner-friendly
-2. Targeted for developers, content writers, and programming enthusiasts.
-3. Would also help participants who are not familiar with development but are eager to participate in open source.
-
----
-
-## Materials
-- [complete cpp fundamentals theory](https://github.com/Sushreesatarupa/Description-of-dsa60/blob/main/C%2B%2B%20theory.html)
-- [GFG learn C++](https://practice.geeksforgeeks.org/courses/fork-cpp)
-- [DSA ALL TOPICS](https://www.geeksforgeeks.org/data-structures)
-
----
-
-<h2 align="center">
-    <p>
-        Thank You
-    </p>
-</h2>
+## Sort Algorithms
 
 
-    
+### Bubble
+![alt text][bubble-image]
+
+From [Wikipedia][bubble-wiki]: Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+
+__Properties__
+* Worst case performance    O(n^2)
+* Best case performance    O(n)
+* Average case performance    O(n^2)
+
+###### View the algorithm in [action][bubble-toptal]
+
+
+
+### Insertion
+![alt text][insertion-image]
+
+From [Wikipedia][insertion-wiki]: Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
+
+__Properties__
+* Worst case performance    O(n^2)
+* Best case performance    O(n)
+* Average case performance    O(n^2)
+
+###### View the algorithm in [action][insertion-toptal]
+
+
+### Quick
+![alt text][quick-image]
+
+From [Wikipedia][quick-wiki]: Quicksort (sometimes called partition-exchange sort) is an efficient sorting algorithm, serving as a systematic method for placing the elements of an array in order.
+
+__Properties__
+* Worst case performance    O(n^2)
+* Best case performance    O(n log n) or O(n) with three-way partition
+* Average case performance    O(n^2)
+
+###### View the algorithm in [action][quick-toptal]
+
+### Selection
+![alt text][selection-image]
+
+From [Wikipedia][selection-wiki]: The algorithm divides the input list into two parts: the sublist of items already sorted, which is built up from left to right at the front (left) of the list, and the sublist of items remaining to be sorted that occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest (or largest, depending on sorting order) element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
+
+__Properties__
+* Worst case performance    O(n^2)
+* Best case performance    O(n^2)
+* Average case performance    O(n^2)
+
+###### View the algorithm in [action][selection-toptal]
+
+
+### Merge
+![alt text][merge-image]
+
+From [Wikipedia][merge-wiki]: Merge sort (also commonly spelled mergesort) is a divide and conquer algorithm that was invented by John von Neumann in 1945. The algorithm dirst divides the list into the smallest unit (1 element), then compares each element with the adjacent list to sort and merge the two adjacent lists. Finally all the elements are sorted and merged. It is an efficient, general-purpose, comparison-based sorting algorithm.
+
+__Properties__
+* Worst case performance    O(n log n)
+* Best case performance    O(n log n)
+* Average case performance    O(n log n)
+
+###### View the algorithm in [action][merge-toptal]
+
+
+### Shell
+![alt text][shell-image]
+
+From [Wikipedia][shell-wiki]:  Shellsort is a generalization of insertion sort that allows the exchange of items that are far apart.  The idea is to arrange the list of elements so that, starting anywhere, considering every nth element gives a sorted list.  Such a list is said to be h-sorted.  Equivalently, it can be thought of as h interleaved lists, each individually sorted.
+
+__Properties__
+* Worst case performance O(nlog2 2n)
+* Best case performance O(n log n)
+* Average case performance depends on gap sequence
+
+###### View the algorithm in [action][shell-toptal]
+
+### Time-Complexity Graphs
+
+Comparing the complexity of sorting algorithms (Bubble Sort, Insertion Sort, Selection Sort)
+
+[Complexity Graphs](https://github.com/prateekiiest/Python/blob/master/sorts/sortinggraphs.png)
+
+[bubble-toptal]: https://www.toptal.com/developers/sorting-algorithms/bubble-sort
+[bubble-wiki]: https://en.wikipedia.org/wiki/Bubble_sort
+[bubble-image]: https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bubblesort-edited-color.svg/220px-Bubblesort-edited-color.svg.png "Bubble Sort"
+
+[insertion-toptal]: https://www.toptal.com/developers/sorting-algorithms/insertion-sort
+[insertion-wiki]: https://en.wikipedia.org/wiki/Insertion_sort
+[insertion-image]: https://upload.wikimedia.org/wikipedia/commons/7/7e/Insertionsort-edited.png "Insertion Sort"
+
+[quick-toptal]: https://www.toptal.com/developers/sorting-algorithms/quick-sort
+[quick-wiki]: https://en.wikipedia.org/wiki/Quicksort
+[quick-image]: https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif "Quick Sort"
+
+[merge-toptal]: https://www.toptal.com/developers/sorting-algorithms/merge-sort
+[merge-wiki]: https://en.wikipedia.org/wiki/Merge_sort
+[merge-image]: https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif "Merge Sort"
+
+[selection-toptal]: https://www.toptal.com/developers/sorting-algorithms/selection-sort
+[selection-wiki]: https://en.wikipedia.org/wiki/Selection_sort
+[selection-image]: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Selection_sort_animation.gif/250px-Selection_sort_animation.gif "Selection Sort Sort"
+
+[shell-toptal]: https://www.toptal.com/developers/sorting-algorithms/shell-sort
+[shell-wiki]: https://en.wikipedia.org/wiki/Shellsort
+[shell-image]: https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif "Shell Sort"
+
+[linear-wiki]: https://en.wikipedia.org/wiki/Linear_search
+[linear-image]: http://www.tutorialspoint.com/data_structures_algorithms/images/linear_search.gif
+
+[binary-wiki]: https://en.wikipedia.org/wiki/Binary_search_algorithm
+[binary-image]: https://upload.wikimedia.org/wikipedia/commons/f/f7/Binary_search_into_array.png
+
+----------------------------------------------------------------------------------
